@@ -1,0 +1,36 @@
+.mainProduct{
+/*margin-top: -30rem;*/
+}
+.imageProduct{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.2em;
+}
+.cardMain{
+    background-color: #0f1531;
+    margin-bottom: 2em;
+}
+h6{
+    color: #0f1531;
+}
+.cardProduct{
+    border-radius: 0.5em;
+}
+.card .card-body{
+    padding: 0.5rem;
+}
+.btn-primary, .custom-file .custom-file-label:after{
+    background-color: #5ce1e6;
+    border-color: #5ce1e6;
+}
+.btn-primary:hover, .custom-file .custom-file-label:hover:after{
+    background-color: #5ce1e6;
+    border-color: #5ce1e6;
+}
+.btn-primary:not(.btn-light):focus, .custom-file .custom-file-label:not(.btn-light):focus:after, .btn-primary:not(.btn-light):active, .custom-file .custom-file-label:not(.btn-light):active:after{
+    background: #5ce1e6;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .custom-file .custom-file-label:not(:disabled):not(.disabled):active:after, .btn-primary:not(:disabled):not(.disabled).active, .custom-file .custom-file-label:not(:disabled):not(.disabled).active:after, .show > .btn-primary.dropdown-toggle, .custom-file .show > .dropdown-toggle.custom-file-label:after{
+    background-color: #5ce1e6;
+    border-color: #5ce1e6;
+}

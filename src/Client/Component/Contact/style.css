@@ -1,0 +1,32 @@
+
+.page-body-wrapper.full-page-wrapper .main-panel .content-wrapper > div{
+    height: auto;
+}
+.page-body-wrapper.full-page-wrapper .main-panel .content-wrapper{
+    padding:  0;
+}
+.maincontact{
+    margin-top: 5rem;
+    margin-left: -1.5em !important;
+    min-height: 50rem;
+    background-image: url("../../../assets/images/category/car2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-attachment: scroll;
+}
+.btnX{
+    margin-top: -10px;
+    color: red;
+    float: right;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+
+.cardbodymain{
+    margin: 2rem;
+}
+
+
+
+

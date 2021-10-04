@@ -1,0 +1,23 @@
+.titleEdite{
+    color: blue;
+}
+.mainheader{
+    margin-top: -35px !important;
+}
+.maintable{
+    margin-top: -10px !important;
+}
+.btnSucess{
+    float: right;
+    margin-top: -10px;
+    width: 2px !important;
+    height: 5px !important;
+}
+
+.btnX{
+    margin-top: -10px;
+    color: red;
+    float: right;
+    cursor: pointer;
+    font-size: 20px !important;
+}

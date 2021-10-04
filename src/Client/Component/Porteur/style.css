@@ -1,0 +1,17 @@
+.mainProduct{
+/*margin-top: -30rem;*/
+}
+.imageProduct{
+    height: 100%;
+    border-radius: 0.5em;
+}
+.cardMain{
+    background-color: #0f1531;
+    margin-bottom: 2em;
+}
+h6{
+    color: #0f1531;
+}
+.cardProduct{
+    border-radius: 0.5em;
+}

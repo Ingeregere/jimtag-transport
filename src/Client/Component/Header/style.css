@@ -1,0 +1,54 @@
+.JimTag{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 800;
+}
+.subJimTag{
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: -2px;
+
+}
+.formSearch{
+    width: 28rem !important;
+}
+.logo{
+    margin-right: 15px;
+}
+.topDescription{
+    margin-left: -5rem;
+}
+.iconBtn{
+    margin-right: 2px;
+}
+.navbarMain{
+    max-height: 70px!important;
+    margin-bottom: 5px;
+    background-color: #5ce1e6;
+
+}
+@media screen and (max-width: 576px) {
+    .topDescription{
+      margin-left: -5em;
+    }
+    .JimTag{
+        font-size: 14px;
+    }
+    .subJimTag{
+        font-size: 10px;
+    }
+    .formSearch{
+        width: 15rem!important;
+
+    }
+    .navbarMain{
+        max-height: none !important;
+    }
+
+}
+@media screen and (max-width: 374px ){
+    .topDescription{
+        display: none;
+    }
+
+}

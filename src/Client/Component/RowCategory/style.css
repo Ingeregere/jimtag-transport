@@ -1,0 +1,24 @@
+.footerCard{
+    background-color: #0f1531;
+    color: #ffffff;
+    text-align: center;
+    height: 20px;
+}
+.NameCategorie{
+    margin-top: -12px;
+}
+.page-body-wrapper.full-page-wrapper .main-panel .content-wrapper > div{
+    height: auto;
+}
+.mainRowCategory{
+    margin-top: 5rem;
+    margin-left: -1.5em !important;
+}
+@media screen and (max-width: 576px) {
+
+}
+@media screen and (max-width: 576px){
+    .mainRowCategory{
+        margin-left: 0em !important;
+    }
+}

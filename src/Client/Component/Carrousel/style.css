@@ -1,0 +1,23 @@
+.imagecarrousel{
+    height: 100%;
+}
+.descriptionH6{
+    color: #ffffff;
+}
+.title{
+    color: white;
+    font-weight: 800;
+}
+@media screen and (max-width: 576px) {
+    .subtitle{
+        margin-top: -1rem;
+    }
+    .descriptionH6{
+        margin-top: -1rem;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+
+
+}

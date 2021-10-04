@@ -1,0 +1,35 @@
+.mainForm{
+   /*margin-left: rem;*/
+}
+
+.Namelabel{
+   font-weight: 800;
+   color: #0f1531;
+}
+.btnView{
+   margin-right: 5rem;
+}
+
+@media screen and (max-width: 576px) {
+   .mainForm{
+      margin-left: auto;
+   }
+   .btnSubmitView{
+      margin-left: 6.5rem;
+      margin-top: -11px;
+
+   }
+   .btnView{
+      margin-top: auto;
+      margin-bottom: 2em;
+   }
+   .btnSubmit{
+      margin-left: 6.5rem;
+      margin-top: -5px;
+   }
+   .btnSub{
+      margin-top: -2rem;
+      display: block;
+      margin-bottom: 1rem;
+   }
+}
