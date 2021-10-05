@@ -84,12 +84,12 @@ const Marque= () => {
             {
                 showSuccess()
             }
-            <div className="row mainheader">
+            <div className="row maintable">
                 <div className="col-12 grid-margin stretch-card">
                     <div className="card">
                         <div className="card-body">
                             <form className="form-inline">
-                                <h4 className="card-title px-2">Categorie</h4>
+                                <h4 className="card-title px-2">Slide</h4>
                                 <label className="sr-only" htmlFor="inlineFormInputName2">Image</label>
                                 <Form.Control
                                     type="file"
