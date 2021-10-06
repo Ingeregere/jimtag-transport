@@ -1,10 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import './style.css'
 import {Card, Carousel, Col, Container, Row} from "react-bootstrap";
-import {dataArticle, dataCarrousel} from "./data";
-import {useParams} from "react-router-dom";
+import {dataArticle} from "./data";
 import AllServices from "../../../app/image-slide/Service";
-import ShowImage from "../../../app/vehicules/categories/showImage";
 import ShowCarousel from "./ShowCarousel";
 
 const CarrouselAds = () => {
@@ -14,8 +12,6 @@ const CarrouselAds = () => {
         setIndex(selectedIndex);
     };
     const [carousels, setCarousels] = useState([])
-
-    const {id} = useParams()
 
     useEffect(()=>{
         getAllCarousel()

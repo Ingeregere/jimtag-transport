@@ -81,6 +81,7 @@ const Index= () => {
                                         <th >Ptr</th>
                                         <th >Suspension</th>
                                         <th >Status</th>
+                                        <th >Action</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -127,6 +128,11 @@ const Index= () => {
                                                             </button>
                                                         </Link>
                                                     }
+                                                </td>
+                                                <td>
+                                                    <Link to={`/vehicules/edit-transport/${b.id}`} className={'text-decoration-none'}>
+                                                        <span className="icon-bg "><i className="mdi mdi-pen "></i>Editer</span>
+                                                    </Link>
                                                 </td>
 
                                             </tr>

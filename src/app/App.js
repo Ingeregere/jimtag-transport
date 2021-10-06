@@ -86,6 +86,7 @@ class App extends Component {
       "/commandes/par-jour",
       "/contacts/recus-par-jour",
       "/vehicules/categories/voir-image/",
+        '/vehicules/edit-transport/',
       "/contacts/question",
 
    ];
@@ -104,6 +105,7 @@ class App extends Component {
     const idslide = currentURL.slice(20,1000000000)
     const idvoirimageCat = currentURL.slice(33,1000000000)
     const imagetransport = currentURL.slice(25,1000000000)
+    const edittransport = currentURL.slice(26,1000000000)
 
     for ( let i = 0; i < fullPageLayoutRoutes.length; i++ ) {
 
@@ -122,6 +124,7 @@ class App extends Component {
           this.props.location.pathname === `/vehicules/pays/editer/${idpaysEditer}` ||
           this.props.location.pathname === `/vehicules/ajouter_image/${imagetransport}` ||
           this.props.location.pathname === `/vehicules/active-desactive/${idactivedesactive}` ||
+          this.props.location.pathname === `/vehicules/edit-transport/${edittransport}` ||
           this.props.location.pathname === `/image-slide/editer/${idslide}`
 
 

@@ -21,7 +21,7 @@ const Index= () => {
         const newStatus = { status , id}
         AllServices.enableDisableStatusTransport(newStatus)
             .then(response=>{
-                setSuccess(response.data.message)
+                history.push('/vehicules/gérer_vehicules')
                 setError('')
                 setStatus('')
 

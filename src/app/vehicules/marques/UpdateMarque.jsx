@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react"
 import AllServices from './ServiceMarque'
 import './style.css'
-import {Alert, Badge, Button, Col, Form, Modal, Row} from "react-bootstrap";
+import {Alert, Form} from "react-bootstrap";
 import {Link, useHistory, useParams} from "react-router-dom";
 
 function ModalContact() {
@@ -10,10 +10,7 @@ function ModalContact() {
     const [brand, setBrand] = useState('')
     const [error, setError] = useState(false)
     const [success, setSuccess] = useState('')
-    const [show, setShow] = useState(false);
     const [currentBrand,setCurrentBrand] = useState('')
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
     const history = useHistory()
 
     const getBrandById = () =>{

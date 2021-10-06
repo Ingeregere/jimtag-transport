@@ -21,6 +21,7 @@ const BodyWork = lazy(() => import('./vehicules/carrosseries'));
 const AddBodywork = lazy(() => import('./vehicules/carrosseries/Add'));
 const UpdateBodywork = lazy(() => import('./vehicules/carrosseries/UpdateCarrosserie'));
 const Attribuer_vehicule = lazy(() => import('./vehicules/attribuer_vehicule'));
+const UpdateVehicule = lazy(() => import('./vehicules/gérer_vehicules/UpdateVehicules'));
 const AjouterImageTransport = lazy(() => import('./vehicules/gérer_vehicules/ImageTransport'));
 const EnableAndDesable = lazy(() => import('./vehicules/gérer_vehicules/EnableDesable'));
 const HomePage = lazy(()=>import('../Client/Pages/Home'))
@@ -79,6 +80,7 @@ class AppRoutes extends Component {
           <Route path="/vehicules/ajouter_marques" component={ AddBrand } />
           <Route path="/vehicules/ajouter_carrosserie" component={ AddBodywork } />
           <Route path="/vehicules/veh_carrosserie/:id" component={ UpdateBodywork } />
+          <Route path="/vehicules/edit-transport/:id" component={ UpdateVehicule } />
           <Route path="/vehicules/marque/:id" component={UpdateMarque} />
           <Route path="/vehicules/editer/:id" component={Marque} />
           <Route path="/vehicules/categories" component={ Category } />

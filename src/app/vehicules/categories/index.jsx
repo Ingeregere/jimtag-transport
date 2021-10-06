@@ -22,9 +22,9 @@ const Marque= () => {
                 <h3 className="page-title"> Voir tous les catagories </h3>
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
-                        <Link to={'/vehicules/ajouter_category'}>
+                        <Link to={'/admin'}>
                             <button type="button" className="btn btn-primary btn-fw">
-                                Ajouter
+                                Tableau de bord
                             </button>
                         </Link>
                     </ol>
@@ -55,9 +55,6 @@ const Marque= () => {
                                                 <td>{c.categoryItem}</td>
                                                 <td>{c.imageCategoryItem} </td>
                                                 <td>
-                                                    {/*<Link to={`/vehicules/categories`} className={'text-decoration-none'}>*/}
-                                                    {/*    <span className="icon-bg "><i className="mdi mdi-pen "></i>Editer</span>*/}
-                                                    {/*</Link>{" "}*/}
                                                     <Link to={`/vehicules/categories/voir-image/${c.id}`} className={'text-decoration-none'}>
                                                         <span className="icon-bg "><i className="mdi mdi-camera-image "></i>Image</span>
                                                     </Link>

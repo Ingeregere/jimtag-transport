@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react"
 import AllServices from './ModèleService'
 import '../marques/style.css'
-import {Alert, Badge, Button, Col, Form, Modal, Row} from "react-bootstrap";
+import {Alert, Form} from "react-bootstrap";
 import {Link, useHistory, useParams} from "react-router-dom";
 
 function ModalContact() {
